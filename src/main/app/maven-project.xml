@@ -11,12 +11,7 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd
 http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd">
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8089" doc:name="HTTP Listener Configuration"/>
-    <http:listener-config name="HTTP_Listener_Configuration1" host="0.0.0.0" port="8071" doc:name="HTTP Listener Configuration"/>
-    <http:listener-config name="HTTP_Listener_Configuration2" host="0.0.0.0" port="9099" doc:name="HTTP Listener Configuration"/>
-    <http:listener-config name="HTTP_Listener_Configuration3" host="0.0.0.0" port="7075" doc:name="HTTP Listener Configuration"/>
-    <http:listener-config name="HTTP_Listener_Configuration4" host="0.0.0.0" port="8088" doc:name="HTTP Listener Configuration"/>
-    <http:listener-config name="HTTP_Listener_Configuration5" host="0.0.0.0" port="8085" doc:name="HTTP Listener Configuration"/>
-    <http:listener-config name="HTTP_Listener_Configuration6" host="0.0.0.0" port="1991" doc:name="HTTP Listener Configuration"/>
+   
     <spring:beans>
         <spring:bean id="Bean" name="Bean" class="com.mulesoft.training.Database"/>
     </spring:beans>
